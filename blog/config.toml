@@ -1,0 +1,63 @@
+baseurl = "https://airnut.gitee.io"
+languageCode = "zh"
+defaultContentLanguage = "zh"
+title = "进击の坚果"
+theme = "dream"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  # background = "black"
+  backgroundImage = "https://s1.ax1x.com/2020/08/26/dfn9wq.jpg"
+  linkColor = "seagreen"              # 网站链接颜色
+
+  author = "坚果"
+  description = "折腾不止"
+  avatar = "/img/avatar.jpg"             # 头像
+  motto = "⑧说了，开冲"
+
+  # rss = true
+  categoriesLimitInHeader = 6             # 限制左栏中显示的类别数，默认值为6
+
+  headerBottomText = "此站点为影分身"               # 底部的文本，用作网站信息的描述
+
+  # utterancesRepo = ""
+  
+  email = "1729473054@qq.com"
+  twitter = "BigNut43714105"
+  # facebook = ""
+  # instagram = ""
+  # linkedin = ""
+  github = "Bigonenut"
+  # stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2020            # 网站的开始年份
+
+  favicon = "/img/favicon.ico"       #网页的左上角的小图标
+  
+  # 高亮
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+  enableSearch = true
+  # options
+  showSummaryCoverInPost = true        # 文章的封面图
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true 
+  dark404 = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
